@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coin Tossing</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/CSS/style.css">
+</head>
+<body class="bg-gray-900 text-white flex flex-col items-center min-h-screen py-10">
+
+  <h1 class="text-4xl font-bold mb-6">Coin Tossing Game</h1>
+
+  <!-- Coin Display -->
+  <div id="coin" class="coin heads mb-6">
+    🪙
+  </div>
+
+  <!-- Result Message -->
+  <p id="result-message" class="text-2xl font-semibold mb-4">Click Toss to Flip the Coin!</p>
+
+  <!-- Toss Button -->
+  <button id="toss-btn" class="bg-green-500 hover:bg-green-700 py-2 px-6 rounded text-xl mb-4">
+    Toss Coin
+  </button>
+
+  <!-- Reset Button -->
+  <button id="reset-btn" class="bg-blue-500 hover:bg-blue-700 py-2 px-6 rounded text-xl mb-4">
+    Reset Game
+  </button>
+
+  <!-- Scoreboard -->
+  <div class="text-xl font-semibold mt-6">
+    <p>Heads: <span id="heads-count">0</span></p>
+    <p>Tails: <span id="tails-count">0</span></p>
+    <p>Total Toss: <span id="totalToss-count">0</span></p>
+  </div>
+
+  <script src="/JavaScript/app.js"></script>
+
+</body>
+</html>
