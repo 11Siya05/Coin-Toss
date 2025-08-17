@@ -24,7 +24,7 @@ A fun and interactive web application that simulates a coin toss! Users can flip
 
 1. Clone the repo:
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/11Siya05/Coin-Toss
    ```
 2. Open `index.html` in your browser.
 
